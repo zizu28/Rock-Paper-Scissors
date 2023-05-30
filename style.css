@@ -1,0 +1,18 @@
+body {
+    background-color: darkslategrey;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
