@@ -1,11 +1,13 @@
 body {
+    padding: 48px;
+    margin: 48px;
     background-color: darkslategrey;
     box-sizing: border-box;
 }
 
 .container {
     padding: 16px;
-    margin: 16px;
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,6 +15,43 @@ body {
 }
 
 .content {
+    align-self: center;
+    padding: 24px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.player-computer {
+    background-color: cadetblue;
+    border-radius: 10px;
+    margin: 32px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    border: 2px dashed white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pngs {
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+
+.pngs img {
+    gap: 8px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
