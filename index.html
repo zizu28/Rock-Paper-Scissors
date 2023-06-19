@@ -9,53 +9,29 @@
 </head>
 <body>
     <div class="container">
-        <h1>ROCK, PAPER, SCISSORS GAME</h1>
+        <!-- <div id="prelude">
+            <h2>
+                This is game consists of three (3) rounds of intense battle between man and cyborg. Each round is made up of five (5) trials. Good luck to the winner
+            </h2>
+        </div> -->
         <div class="content">
-            <div class="player-computer">
-                <h2>PLAYER</h2>
-                <div class="img-container">
-                    <img src="./icons/boy.png" alt="boy">
-                    <p>Score:</p>
-                </div>
-                <div class="pngs">
-                    <div>
-                        <p>ROCK</p>
-                        <img src="./icons/rock.png" alt="rock">
-                    </div>
-                    <div>
-                        <p>PAPER</p>
-                        <img src="./icons/paper.png" alt="paper">
-                    </div>
-                    <div>
-                        <p>SCISSORS</p>
-                        <img src="./icons/scissors.png" alt="scissors">
-                    </div>
-                </div>
-            </div>
-            <div class="player-computer">
-                <h2>COMPUTER</h2>
-                <div class="img-container">
-                    <img src="./icons/robot.png" alt="robot">
-                    <p>Score:</p>
-                </div>
-                <div class="pngs">
-                    <div>
-                        <p>ROCK</p>
-                        <img src="./icons/rock.png" alt="rock">
-                    </div>
-                    <div>
-                        <p>PAPER</p>
-                        <img src="./icons/paper.png" alt="paper">
-                    </div>
-                    <div>
-                        <p>SCISSORS</p>
-                        <img src="./icons/scissors.png" alt="scissors">
-                    </div>
-                </div>
-            </div>
+            <button id="rock"><span class="rock-content">ROCK</span></button>
+            <button id="paper">PAPER</button>
+            <button id="scissors">SCISSORS</button>
         </div>
+        <div class="results">
+            <div class="player-result"></div>
+            <div class="computer-result"></div>
+        </div>
+        <div class="outcome"></div>
+        <!-- <div id="deciders">
+            <div id="round"></div>
+            <div id="players">
+                <div id="player-round"></div>
+                <div id="computer-round"></div>
+            </div>
+        </div> -->
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
